@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body style="background:#1e1e2e; display:flex; justify-content:center; padding-top:80px;">
+  <svg width="300" height="200" viewBox="0 0 300 200">
+    <circle class="ball" cx="30" cy="100" r="20" fill="#f38ba8" />
+  </svg>
+
+  <style>
+    .ball {
+      animation: bounce 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes bounce {
+      from { transform: translateX(0); }
+      to   { transform: translateX(240px); }
+    }
+  </style>
+</body>
+</html>
